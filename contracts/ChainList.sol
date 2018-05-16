@@ -9,7 +9,7 @@ contract ChainList {
 
 
   function sellArticle(string _name, string _description, uint256 _price) public {
-    seller = msg.address;
+    seller = msg.sender;
     name = _name;
     description = _description;
     price = _price;
