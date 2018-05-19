@@ -7,6 +7,11 @@ contract ChainList {
   string name;
   uint256 price;
 
+  //constructor
+  function ChainList() public {
+    sellArticle("Article 1", "Article produced by constructor", 100000000000000000);
+  }
+
 
   function sellArticle(string _name, string _description, uint256 _price) public {
     seller = msg.sender;

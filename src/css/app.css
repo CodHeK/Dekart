@@ -1,0 +1,9 @@
+body {
+  padding-top: 40px;
+}
+
+.welcome {
+  display: inline;
+  font-size: 18px;
+  padding: 5px;
+}
